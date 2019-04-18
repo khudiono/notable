@@ -1,0 +1,34 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "notable swe challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js",
+    "react:dev": "webpack -d --watch",
+    "view": "webpack -d --watch | nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khudiono/notable.git"
+  },
+  "author": "Kelly Hudiono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khudiono/notable/issues"
+  },
+  "homepage": "https://github.com/khudiono/notable#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
