@@ -6,7 +6,8 @@
   "scripts": {
     "test": "index.js",
     "react:dev": "webpack -d --watch",
-    "view": "webpack -d --watch | nodemon server/server.js"
+    "view": "webpack -d --watch | nodemon index.js", 
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
